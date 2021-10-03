@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# MUNDO SEM FRONTEIRAS
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Eixo 1 - Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2021/2`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Arthur Moreira de Morais
+* Jéssica Raíssa Araújo Oliveira Queiroz Lopes
+* Matheus Mendes Fonseca
+* Neemias Junio Anjos Lopes
+* Tiago Miquéias Viana Rodrigues
+* Victor Bruno Kulessa
 
 ## Orientador
 
-* Nome completo do professor 1
+* Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
 
