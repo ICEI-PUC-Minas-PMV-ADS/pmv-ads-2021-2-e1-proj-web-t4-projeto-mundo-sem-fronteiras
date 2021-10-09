@@ -17,16 +17,18 @@ As informações estão espalhadas por todos os cantos da internet, o que força
 No que se refere ao objetivo geral, este projeto busca entregar ao público um site intuitivo e de fácil uso, onde poderá localizar todas as informações necessárias para planejar sua viagem internacional, desde a documentação até onde localizar a melhor opção de hospedagem para o destino.
 
 Quanto aos objetivos específicos, podemos citar:
--	Disponibilizar um orçamento aproximado de acordo com o destino e tempo de estadia;
--	Sugerir opções de passeio e lazer;
--	Desenvolver uma caixa de comentários em cada publicação;
--	Criar uma página de contato onde os usuários poderão sugerir países que não estejam no nosso site ou novos tópicos de informações.
+<ul>
+ <li>Disponibilizar um orçamento aproximado de acordo com o destino e tempo de estadia;</li>
+ <li>Sugerir opções de passeio e lazer;</li>
+ <li>Desenvolver uma caixa de comentários em cada publicação;</li>
+ <li>Criar uma página de contato onde os usuários poderão sugerir países que não estejam no nosso site ou novos tópicos de informações.</li>
+</ul>
 
 ## Justificativa
 
 Existem vários sites online que postam notícias, informações e dicas sobre viagens ao exterior. Todavia, essas informações são passadas em partes, e nunca abrangem todo o contexto por trás do assunto.
 
-Tendo isso em mente, há um gap quando se trata de sites onde é possível acessar de forma rápida as informações pertinentes a viagens internacionais e questões burocráticas de entrada em cada país.
+Tendo isso em mente, há um <em>gap</em> quando se trata de sites onde é possível acessar de forma rápida as informações pertinentes a viagens internacionais e questões burocráticas de entrada em cada país.
 
 ## Público-Alvo
 
