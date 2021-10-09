@@ -6,7 +6,7 @@
 
 `2021/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto tem o intuito de desburocratizar o acesso às informações relacionadas a viagens ao exterior, trazendo todo dado necessário para que qualquer pessoa seja capaz de tirar do papel o sonho de ir para outro país.
 
 ## Integrantes
 
