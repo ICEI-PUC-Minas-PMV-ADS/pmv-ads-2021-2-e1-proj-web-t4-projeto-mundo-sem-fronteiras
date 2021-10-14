@@ -74,6 +74,10 @@ A divisão da equipe foi realizada da seguinte maneira:
  </li>
 </ul>
 
+Para gerir o andamento do projeto, foi utilizado o recurso de <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2021-2-e1-proj-web-t4-projeto-mundo-sem-fronteiras/projects/1#card-70838916">Projetos</a> do GitHub. Deste modo, tanto do Backlog do Produto quanto o andamento das atividades no decorrer das Sprints serão mostrados de forma detalhada, descrevendo o que foi feito, o que está em andamento e o que está pendente.
+
+<img src="img/gerenciamento_projeto.png">
+
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
