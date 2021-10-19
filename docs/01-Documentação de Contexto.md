@@ -1,46 +1,37 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+As viagens internacionais são comuns na vida de muitas pessoas, seja uma viagem de negócios ou de turismo. Independente do destino, viajar para fora do país é uma experiência emocionante, porém o planejamento pode ser um tanto quanto estressante e burocrático. Nesse momento, a clareza nas informações pode ser algo que vai facilitar e muito todo o processo necessário para ir a outro país.
+
+É muito comum as pessoas buscarem as agências de viagens pela comodidade, pois tratam desde a compra das passagens até a reserva de acomodações e passeios. O “não saber o que fazer” ou “não saber como fazer” também leva as pessoas a solicitarem o trabalho das agências. No entanto, por mais cômodo e prático que seja esse recurso, ele pode sair bem mais caro do que se a pessoa fizesse todo o planejamento por conta própria.
+
+Existem perfis nas redes sociais que divulgam informações nesse contexto, como por exemplo a página Mundo By Hay, que compartilha conteúdos sobre viagens nacionais, internacionais e sobre intercâmbio. Temos também o Matheus Tomoto, contando com mais de 1 milhão de seguidores, que realiza mentorias e também compartilha conteúdos no intuito de ajudar os seus seguidores a conseguirem uma bolsa de estudos no exterior.
+ 
+No entanto, como nem todos fazem o uso de redes sociais, é importante que haja um portal onde a população possa esclarecer de forma prática, simples e direta, as dúvidas existentes sobre o seu destino, as burocracias de sua viagem e terem dicas de como viajar com o melhor custo-benefício possível.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+As informações estão espalhadas por todos os cantos da internet, o que força o usuário a navegar por muito tempo até encontrar aquilo que procura. O intuito deste projeto é desburocratizar o acesso a essas informações e centralizar tudo que uma pessoa busca em relação a viagens internacionais em um só lugar. 
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+No que se refere ao objetivo geral, este projeto busca entregar ao público um site intuitivo e de fácil uso, onde poderá localizar todas as informações necessárias para planejar sua viagem internacional, desde a documentação até onde localizar a melhor opção de hospedagem para o destino.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Quanto aos objetivos específicos, podemos citar:
+<ul>
+ <li>Disponibilizar um orçamento aproximado de acordo com o destino e tempo de estadia;</li>
+ <li>Sugerir opções de passeio e lazer;</li>
+ <li>Desenvolver uma caixa de comentários em cada publicação;</li>
+ <li>Criar uma página de contato onde os usuários poderão sugerir países que não estejam no nosso site ou novos tópicos de informações.</li>
+</ul>
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Existem vários sites online que postam notícias, informações e dicas sobre viagens ao exterior. Todavia, essas informações são passadas em partes, e nunca abrangem todo o contexto por trás do assunto.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Tendo isso em mente, há um <em>gap</em> quando se trata de sites onde é possível acessar de forma rápida as informações pertinentes a viagens internacionais e questões burocráticas de entrada em cada país.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Este projeto está focado em todas as pessoas que planejam fazer sua primeira viagem ao exterior e não querem recorrer às agências de viagens. Além disso, o projeto também se faz útil àqueles que buscam informações e dicas sobre o país de destino.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Com base nessas informações, estabelecemos como público alvo homens e mulheres, dos 18 aos 40 anos, que buscam fazer uma viagem ao exterior e não sabem por onde ou como planejar. 
