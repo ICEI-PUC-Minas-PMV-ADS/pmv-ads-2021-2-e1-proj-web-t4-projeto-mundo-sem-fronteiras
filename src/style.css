@@ -1,0 +1,64 @@
+body{ background-image:url(.//back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+h1{font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: rgb(245, 245, 245);
+        font-size: 30px;
+    color:rgb(255, 255, 255);}
+    p1{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        text-shadow: black;
+        }
+.text{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+position: absolute;
+right: 39%;;
+top: 58%;
+text-shadow: black}
+
+.search-box{ position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%,50%);
+        background:rgb(74, 71, 199);
+        height: 40px;
+        border-radius: 40px;
+        padding: 10px;
+}
+.search-btn{
+         float: right;
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        transition: 2s;}
+.search-txt{
+        border: none;
+        background: none;
+        outline:none;
+        float: left;
+        padding: 0px;
+        color: white;
+        font-size: 16px;
+        transition: 0.4s;
+        line-height: 40px;
+        width: 0px;     
+}
+
+.search-box:hover > .search-txt{
+  
+    width: 240px;
+    height: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+    
+}
+
+
+              
