@@ -3,7 +3,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/background.png);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,6 +18,10 @@ header {
   justify-content: center;
   height: 90vh;
   color: #fff;
+}
+
+.content__header img {
+  height: 250px;
 }
 
 .content__header h1 {

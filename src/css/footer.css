@@ -1,0 +1,11 @@
+footer {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../img/background.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
