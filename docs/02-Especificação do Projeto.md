@@ -49,7 +49,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-02| Apresentar, para cada destino ou tópico, uma imagem correspondente ao assunto apresentado | MÉDIA |
 |RF-03| Permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação | MÉDIA |
 |RF-04| Mostrar ao usuário sugestões de destino e entretenimento para o determinado país | BAIXA |
-|RF-05| Perimitir visualizar as informações de contatos dos mantenedores do site | MÉDIA |
+|RF-05| Permitir visualizar as informações de contatos dos mantenedores do site | MÉDIA |
 |RF-06| Permitir o compartilhamento das páginas visualizadas em redes sociais | BAIXA |
 |RF-07| Permitir que usuários possam comentar as postagens | BAIXA |
 |RF-08| Exibir os comentários registrados em cada página de conteúdo | BAIXA |
