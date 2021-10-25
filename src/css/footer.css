@@ -1,0 +1,95 @@
+footer {
+  padding: 2% 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../img/background.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  justify-content: space-around;
+}
+
+.content__footer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.42);
+  margin: 10px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.logo__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.logo__footer img {
+  height: 100px;
+}
+
+.logo__footer h1 {
+  text-transform: uppercase;
+  font-size: large;
+}
+
+.content__footer a {
+  margin: 0 10px;
+}
+
+.contato__footer {
+  margin: 10px;
+}
+
+.texto__footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto__footer p {
+  margin: 10px;
+}
+
+.texto__footer p:nth-child(2) {
+  font-weight: bold;
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.5);
+}
+
+.content__footer input {
+  margin: 20px;
+  height: 60px;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 90%;
+  font-weight: bolder;
+}
+.content__footer textarea {
+  margin: 20px;
+  height: 180px;
+  padding: 10px;
+  resize: none;
+  text-transform: uppercase;
+  width: 90%;
+  font-weight: bolder;
+}
+
+.content__footer button {
+  margin: 20px;
+  height: 60px;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 90%;
+  font-weight: bolder;
+  background-color: var(--azul-2);
+  color: white;
+}
+
+.content__footer button:hover {
+  background-color: var(--azul-diferencial);
+}

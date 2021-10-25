@@ -1,0 +1,42 @@
+.container__equipe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.pessoa {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: space-around;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 71px -25px rgba(0, 0, 0, 0.35) inset;
+  -webkit-box-shadow: 0px 0px 71px -25px rgba(0, 0, 0, 0.35) inset;
+  -moz-box-shadow: 0px 0px 71px -25px rgba(0, 0, 0, 0.35) inset;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+}
+
+.pessoa img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.pessoa h2 {
+  color: white;
+}
+
+.pessoa p {
+  font-size: 12px;
+  width: 250px;
+  color: white;
+}

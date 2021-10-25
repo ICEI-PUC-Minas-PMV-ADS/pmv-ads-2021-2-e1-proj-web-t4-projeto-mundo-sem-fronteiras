@@ -1,0 +1,22 @@
+.container__sobre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+}
+
+.article__sobre {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.41);
+}
+.article__sobre p {
+  font-size: 14px;
+  margin: 16px;
+}
+.article__sobre p:nth-child(even) {
+  font-weight: bold;
+}

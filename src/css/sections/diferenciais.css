@@ -1,0 +1,26 @@
+.container__diferenciais {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-around;
+}
+
+.diferencial {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.diferencial img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.diferencial p {
+  width: 250px;
+}

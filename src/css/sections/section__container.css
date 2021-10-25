@@ -1,0 +1,19 @@
+.section__container {
+  padding: 2% 40px;
+  margin: 0 auto;
+  color: white;
+}
+
+.section__container:first-child {
+  background-color: var(--azul-diferencial);
+}
+
+.section__container:nth-child(2) {
+  background-color: var(--cinza-equipe);
+}
+
+.section__container h1 {
+  margin: 40px;
+  text-transform: uppercase;
+  font-size: 36px;
+}

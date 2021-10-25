@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --azul-escuro: #1c1f36;
+  --azul-diferencial: #46657e;
+  --azul-2: #567c9b;
+  --cinza-equipe: #414447;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+textarea,
+input,
+select {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-indent: 0;
+}
