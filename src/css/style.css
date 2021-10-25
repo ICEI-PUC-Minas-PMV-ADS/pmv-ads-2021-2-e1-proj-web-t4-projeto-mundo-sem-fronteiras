@@ -3,6 +3,7 @@
 :root {
   --azul-escuro: #1c1f36;
   --azul-diferencial: #46657e;
+  --azul-2: #567c9b;
   --cinza-equipe: #414447;
 }
 
@@ -19,4 +20,20 @@ select {
   border: 0 none;
   outline: 0;
   border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: none repeat scroll 0 0 transparent;
+  border: medium none;
+  border-spacing: 0;
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  text-indent: 0;
 }
