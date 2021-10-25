@@ -45,7 +45,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-01| Apresentar na página principal as opções de países para viajar | ALTA | 
+|RF-01| Apresentar na página principal uma lista com os países para seleção | ALTA | 
 |RF-02| Apresentar, para cada destino ou tópico, uma imagem correspondente ao assunto apresentado | MÉDIA |
 |RF-03| Permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação | MÉDIA |
 |RF-04| Mostrar ao usuário sugestões de destino e entretenimento para o determinado país | BAIXA |
