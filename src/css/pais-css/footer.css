@@ -1,2 +1,10 @@
 footer {
+  background-color: var(--cinza-equipe);
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+footer span img {
+  width: 70px;
 }
