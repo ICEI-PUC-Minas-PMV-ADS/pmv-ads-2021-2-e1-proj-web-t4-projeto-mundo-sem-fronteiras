@@ -17,10 +17,12 @@
   object-fit: cover;
   width: 230px;
   height: 230px;
+  padding-bottom: 10px;
   border-radius: 100%;
   align-self: center;
 }
 
 .diferencial p {
-  width: 250px;
+  height: 100px;
+  width: 400px;
 }

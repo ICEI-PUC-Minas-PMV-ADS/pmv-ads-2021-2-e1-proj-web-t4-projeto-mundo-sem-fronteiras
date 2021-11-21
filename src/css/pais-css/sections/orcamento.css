@@ -1,0 +1,51 @@
+.container__orcamento {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.orcamento {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 350px;
+  width: 500px;
+  border: 10px solid var(--azul-escuro);
+  border-radius: 10px;
+}
+
+.orcamento h2 {
+  padding-top: 15px;
+  height: 50px;
+  width: auto;
+}
+
+.orcamento ul {
+  display: block;
+  text-align: left;
+}
+
+.orcamento table {
+  margin: 0 auto;
+  text-align: left;
+  table-layout: auto;
+}
+
+.orcamento table tr th {
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.orcamento table tr td {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.orcamento span {
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.2em;
+  border-radius: 10px;
+}
