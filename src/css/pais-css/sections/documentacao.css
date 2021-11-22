@@ -1,0 +1,29 @@
+.container__documentacao {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-around;
+}
+
+.documento {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.documento img {
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+  padding-bottom: 10px;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.documento p {
+  height: 130px;
+  width: 400px;
+}
