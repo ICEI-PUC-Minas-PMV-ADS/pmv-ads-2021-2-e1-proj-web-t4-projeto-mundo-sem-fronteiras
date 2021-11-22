@@ -10,7 +10,7 @@
   text-align: center;
   height: 350px;
   width: 500px;
-  border: 10px solid var(--azul-escuro);
+  border: 3px solid var(--azul-escuro);
   border-radius: 10px;
 }
 
