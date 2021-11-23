@@ -8,10 +8,11 @@
 .documento {
   display: flex;
   flex-direction: column;
-  height: 400px;
-  padding-bottom: 10px;
+  height: auto;
+  padding: 15px 0;
   justify-content: space-around;
   text-align: center;
+  border: 1px solid red;
 }
 
 .documento img {
@@ -24,6 +25,6 @@
 }
 
 .documento p {
-  height: 130px;
-  width: 400px;
+  height: 150px;
+  width: 500px;
 }
