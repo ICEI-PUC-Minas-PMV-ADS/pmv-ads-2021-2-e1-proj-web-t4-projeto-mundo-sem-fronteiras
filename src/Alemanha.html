@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="dbfake.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/pais-css/header.css" />
@@ -22,17 +23,14 @@
     <div class="content__header">
       <div class="container__pais">
         <img src="img/paises/alemanha.png" alt="Foto do" />
-        <!-- Icon made by Freepik from Flaticon -->
+        
         <h1>Alemanha</h1>
+         
       </div>
       <div class="container__desc__pais">
-        <p>
-            A Alemanha é um país situado na Europa Ocidental com uma paisagem de florestas, rios, cordilheiras e praias do Mar do Norte. A nação tem mais de 2 milênios de história. Berlim, a capital, abriga cenários artísticos e de vida noturna, o Portão de Brandemburgo e muitos locais relacionados à Segunda Guerra Mundial. Munique é conhecida pela Oktoberfest e pelos beer halls, entre eles o Hofbräuhaus, do século XVI. Frankfurt, com seus arranha-céus, abriga o Banco Central Europeu.
-            <br>
-            fonte: Google 
-            <br><br>
-            Com 83,1 milhões de habitantes, a Alemanha é o país mais populoso da UE e um dos países com a maior densidade demográfica. Cerca de 77% dos habitantes vivem em áreas com média ou alta densidade demográfica. Cerca de 30% da população vivem em metrópoles com mais de 100 mil habitantes, no total de 80 no país, entre elas quatro cidades com mais de um milhão de habitantes (Berlim, Hamburg, Munique, Colônia).
-        </p>
+        <div id="lista-paises">
+            
+        </div>
       </div>
     </div>
   </header>
@@ -44,17 +42,19 @@
           <img src="img/passaporte.jpg" alt="Passaporte" />
           <!-- Fonte da imagem: https://www.prefeitura.sp.gov.br/cidade/secretarias/pessoa_com_deficiencia/noticias/?p=309920 -->
           <h2>PASSAPORTE</h2>
-          <p>
-            Documento padrão necessário para quase todas as viagens internacionais partindo do Brasil, com exceção dos países da MERCOSUL, onde você pode utilizar sua identidade brasileira como ducumentação. Podendo ser consultadas as regras para solicitação do passaporte, no link das
-            <a style="text-decoration: underline; color: lightgray;" target="_blank" href="https://brasil.diplo.de/br-pt/servicos/passaporte/1010090">Representações da República Federal da Alemanha no Brasil</a>
-          </p>
+            <div id="passaporte">
+            </div>
+            <p>
+              <a style="text-decoration: underline; color: lightgray;" target="_blank" href="https://brasil.diplo.de/br-pt/servicos/passaporte/1010090">Representações da República Federal da Alemanha no Brasil</a>
+            </p>
         </div>
         <div class="documento">
           <img src="img/visto.jpg" alt="Visto" />
           <!-- Fonte da imagem: https://rockcontent.com/br/talent-blog/o-que-sao-referencias-na-hora-de-escrever-um-texto/ -->
           <h2>VISTO</h2>
+          <div id="visto">
+          </div>
           <p>
-            Visto não é necessário para viagens de até 90 dias. Desde que cidadãos brasileiros portem passaportes válidos comuns, diplomáticos, de serviço ou outros passaportes oficiais podem entrar ou passar em transito na Alemanha e nos países membros da União Europeia (exceto no Reino Unido e Irlanda). O processo pode ser consultado no site das        
             <a style="text-decoration: underline; color: lightgray;" target="_blank" href="https://brasil.diplo.de/br-pt/servicos/visto/schengen/1010106">Representações da República Federal da Alemanha no Brasil</a>.
           </p>
         </div>
@@ -62,11 +62,9 @@
           <img src="img/vacina.png" alt="Carteira de Vacinação" />
           <!-- Fonte da imagem: https://www.ignicaodigital.com.br/marketing-digital-psicologia/ -->
           <h2>CARTEIRA DE VACINAÇÃO</h2>
+          <div id= "carteiraDeVacinacao"></div>
           <p>
-            Para a entrada na Alemanha, depois da crise causada pela SARS-CoV-2 (COVID-19), é necessário apresentar um certificado digital COVID da UE ou comprovante de vacinação comparável, digital ou em papel, em idioma alemão, inglês, francês, italiano ou espanhol.
-            Fonte oficial das
-            <a style="text-decoration: underline; color: lightgray;" target="_blank" href="https://brasil.diplo.de/br-de/coronavirus/2320108">Representações da República Federal da Alemanha no Brasil</a>.
-        
+          <a style="text-decoration: underline; color: lightgray;" target="_blank" href="https://brasil.diplo.de/br-de/coronavirus/2320108">Representações da República Federal da Alemanha no Brasil</a>.
           </p>
         </div>
       </div>
@@ -204,6 +202,40 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+  <script>
+    var sobrepais = ""
+     for (i= 0; i <db.dados. length; i++)
+     {
+       sobrepais += ` A Alemanha ${ db.dados[i].sobre} <br><br> ${ db.dados[i].sobredois}`;
+     }
+     document.getElementById ("lista-paises").innerHTML = sobrepais;
+
+    var sobredocumentacao = ""
+    for (i= 0; i <db.dados. length; i++)
+    {
+     sobredocumentacao += ` A ${ db.dados[i].iPassaport}`;
+    }
+    document.getElementById ("passaporte").innerHTML = sobredocumentacao;
+
+  
+   var sobrevisto = ""
+    for (i= 0; i <db.dados. length; i++)
+   {
+    sobrevisto += ` O ${ db.dados[i].iVisto}`;
+   }
+   document.getElementById ("visto").innerHTML = sobrevisto
+
+   var sobrevavinacao = ""
+    for (i= 0; i <db.dados. length; i++)
+   {
+    sobrevavinacao += ` O ${ db.dados[i].iCarteiraDeVacinacao}`;
+   }
+   document.getElementById ("carteiraDeVacinacao").innerHTML = sobrevavinacao
+
+  </script>
+  
+  
+  
 </body>
 
 </html>
