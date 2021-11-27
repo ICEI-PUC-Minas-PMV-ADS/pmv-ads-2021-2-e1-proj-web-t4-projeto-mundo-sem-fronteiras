@@ -53,8 +53,6 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-06| Permitir o compartilhamento das páginas visualizadas em redes sociais | BAIXA |
 |RF-07| Permitir que usuários possam comentar as postagens | BAIXA |
 |RF-08| Exibir os comentários registrados em cada página de conteúdo | BAIXA |
-|RF-09| Exibir informações confiáveis com referências e fontes seguras | MÉDIA |
-|RF-10| Exibir informações sobre o clima nas 4 (quatro) estações do ano | BAIXA |
 |RF-11| Exibir dados sobre vacinações e/ou restrições de saúde para entrada em cada país | BAIXA |
 |RF-12| Apresentar informações sobre documentações necessárias para entrada no país, detalhando o processo burocrático necessário para tal | MÉDIA |
 
