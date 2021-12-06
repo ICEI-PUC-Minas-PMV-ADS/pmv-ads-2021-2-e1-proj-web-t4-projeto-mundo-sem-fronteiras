@@ -5,6 +5,7 @@
 }
 
 .orcamento {
+  overflow:hidden;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -37,19 +38,19 @@
 .orcamento table tr th {
   padding: 5px 10px;
   text-align: center;
-  font-size: 1.1vw;
+  font-size: 0.5rem;
 }
 
 .orcamento table tr td {
   text-align: center;
   padding: 5px 10px;
-  font-size: 1.1vw;
+  font-size: 0.5rem;
 }
 
 .orcamento span {
   margin: 0 auto;
   padding: 10px;
-  font-size: 1.5vw;
+  font-size: 1rem;
   text-align: center;
   line-height: 1.2em;
   border-radius: 10px;
