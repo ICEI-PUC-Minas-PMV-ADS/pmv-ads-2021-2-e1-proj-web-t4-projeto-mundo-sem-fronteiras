@@ -1,4 +1,7 @@
 .section__container {
+  display: flexbox;
+  width: 100%;
+  height: auto;
   padding: 2% 2vh;
   margin: 0 auto;
   color: white;
@@ -20,6 +23,7 @@
   text-transform: uppercase;
   font-size: 3vh;
   text-align: center;
+  margin: 10px;
 }
 
 .section__container p {

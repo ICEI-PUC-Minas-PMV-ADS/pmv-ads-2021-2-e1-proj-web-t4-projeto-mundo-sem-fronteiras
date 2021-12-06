@@ -11,21 +11,26 @@
   display: flex;
   flex-direction: column;
   margin: 10px;
-  height: 40vh;
-  padding-bottom: 10px;
+  height: 50vh;
+  padding: 10px;
   justify-content: space-around;
   text-align: center;
 }
 
 .documento img {
-  width: 30vh;
-  height: auto;
-  margin: 10px;
+  max-width: 230px;
+  object-fit: cover;
+  padding: 2vh;
   border-radius: 100%;
   align-self: center;
 }
 
+.documento h2 {
+  font-size: 1.5vh;
+}
+
 .documento p {
-  height: 15vw;
+  height: auto;
   width: 400px;
+  font-size: 2vh;
 }
