@@ -34,15 +34,16 @@ header {
 
 .container__pais img {
   object-fit: cover;
-  height: 300px;
+  height: auto;
+  width: 20vw;
   border-radius: 100%;
   align-self: center;
-  margin: 15px;
+  margin: 1vw;
 }
 
 .container__desc__pais {
-  width: 50%;
-  height: 350px;
+  width: 100%;
+  height: auto;
   background-color: #fff;
   padding: 40px;
   -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.41);
@@ -50,5 +51,5 @@ header {
 }
 
 .container__desc__pais p {
-  font-size: 24px;
+  font-size: 2vh;
 }

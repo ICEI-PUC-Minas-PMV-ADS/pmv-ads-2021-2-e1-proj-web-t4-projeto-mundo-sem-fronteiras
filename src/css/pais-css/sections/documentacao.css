@@ -1,29 +1,31 @@
 .container__documentacao {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   height: auto;
+  width: 100%;
   justify-content: space-around;
 }
 
 .documento {
   display: flex;
   flex-direction: column;
-  height: 400px;
+  margin: 10px;
+  height: 40vh;
   padding-bottom: 10px;
   justify-content: space-around;
   text-align: center;
 }
 
 .documento img {
-  object-fit: cover;
-  width: 230px;
-  height: 230px;
-  padding-bottom: 10px;
+  width: 30vh;
+  height: auto;
+  margin: 10px;
   border-radius: 100%;
   align-self: center;
 }
 
 .documento p {
-  height: 130px;
+  height: 15vw;
   width: 400px;
 }
