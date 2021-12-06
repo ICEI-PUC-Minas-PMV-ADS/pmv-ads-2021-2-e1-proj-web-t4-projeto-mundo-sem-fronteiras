@@ -2,9 +2,10 @@ footer {
   background-color: var(--cinza-equipe);
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 15px;
+  width: 100%;
 }
 
 footer span img {
-  width: 70px;
+  width: 60px;
 }
